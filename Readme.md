@@ -29,18 +29,93 @@ dataset_info:
   - name: input
     dtype: string
   - name: output
-    dtype: string 
+    dtype: string
   - name: code
-    dtype: string 
+    dtype: string
   - name: res_var
     dtype: string
   - name: operation
     dtype: string
+  - name: id
+    dtype: int32
   splits:
-  - name: test
-    num_examples: 14661
   - name: train
+    num_bytes: 3222948
     num_examples: 33939
+  - name: test
+    num_bytes: 1392252
+    num_examples: 14661
+  download_size: 1178254
+  dataset_size: 4615200
+- config_name: small10
+  features:
+  - name: input
+    dtype: string
+  - name: output
+    dtype: string
+  - name: code
+    dtype: string
+  - name: res_var
+    dtype: string
+  - name: operation
+    dtype: string
+  - name: id
+    dtype: int32
+  splits:
+  - name: train
+    num_bytes: 956996
+    num_examples: 11313
+  - name: test
+    num_bytes: 413404
+    num_examples: 4887
+  download_size: 312419
+  dataset_size: 1370400
+- config_name: small15
+  features:
+  - name: input
+    dtype: string
+  - name: output
+    dtype: string
+  - name: code
+    dtype: string
+  - name: res_var
+    dtype: string
+  - name: operation
+    dtype: string
+  - name: id
+    dtype: int32
+  splits:
+  - name: train
+    num_bytes: 1074316
+    num_examples: 11313
+  - name: test
+    num_bytes: 464084
+    num_examples: 4887
+  download_size: 393420
+  dataset_size: 1538400
+- config_name: small20
+  features:
+  - name: input
+    dtype: string
+  - name: output
+    dtype: string
+  - name: code
+    dtype: string
+  - name: res_var
+    dtype: string
+  - name: operation
+    dtype: string
+  - name: id
+    dtype: int32
+  splits:
+  - name: train
+    num_bytes: 1191636
+    num_examples: 11313
+  - name: test
+    num_bytes: 514764
+    num_examples: 4887
+  download_size: 472415
+  dataset_size: 1706400
 ---
 
 # Dataset Card for Small String Operations Dataset
