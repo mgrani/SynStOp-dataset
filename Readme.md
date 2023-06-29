@@ -193,3 +193,10 @@ dataset_info:
 
  Thanks to [@mgrani](https://github.com/mgrani) for adding this dataset.
         """
+ 
+
+ ### Acknowledgements
+
+This work is part of the OpenWebSearch.eu project and the SMAEGBot Project. The OpenWebSearch.eu Project is funded by the EU under the GA 101070014 and we thank the EU for their support. SMAEGBot is supported by funds of the Federal Ministry of Food and Agriculture (BMEL) based on a decision of
+the Parliament of the Federal Republic of Germany. The Federal Office for Agriculture and Food (BLE) provides
+coordinating support for artificial intelligence (AI) in agriculture as funding organisation, grant number 05119082.
